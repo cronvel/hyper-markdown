@@ -11,7 +11,7 @@ This contains *original markdown* + *GFM* + *specific Hyper-Markdown syntax*.
 
 ## Why another Markdown extension?
 
-The objective of **Hyper-Markdown** is *zero HTML for content*.
+The objective of **Hyper-Markdown** is *“zero HTML for content”*.
 
 Markdown, especially with the *GFM extension*, almost reached this goal,
 but there are still few common cases where HTML is still necessary.
