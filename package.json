@@ -2,7 +2,7 @@
   "name": "hyper-markdown",
   "description": "A superset of markdown, having in mind the “zero HTML for content” motto!",
   "author": "Cédric Ronvel",
-  "version": "0.3.11",
+  "version": "0.3.12",
   "main": "./lib/marked.js",
   "bin": "./bin/marked",
   "man": "./man/marked.1",

@@ -30,6 +30,7 @@ but there are still few common cases where HTML is still necessary.
 	  it clears all columns and start over on a fresh one-column section
 	* `- [ ] ` or `* [ ] ` or `+ [ ] ` introduce a todo list item
 	* `- [x] ` or `* [x] ` or `+ [x] ` introduce a todo list item done
+	* `--` as a block markup is used to cite someone, usually inside a blockquote
 
 
 
@@ -44,4 +45,5 @@ New methods / modified methods of **marked** module:
 * .endColumn( columnDepth )
 * .list( body , ordered , todoList )
 * .listitem( text , checkbox )
+* .cite( text )
 
