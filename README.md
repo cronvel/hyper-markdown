@@ -25,9 +25,9 @@ but there are still few common cases where HTML is still necessary.
 	  it uses the text inside brackets as content for a *figcaption* tag
 	* `:!![caption](url)` same, but make the *figure* float to the left (i.e. give it classes *float* and *float-left*)
 	* `!!:[caption](url)` same, but make the *figure* float to the right (i.e give it classes *float* and *float-right*)
-	* `|||` column break
+	* `|||` column break (close/open "column" custom tags)
 	* `+++` (or `+ + +` or `++++++++` or anything following the horizontal rule syntax) are used as *section break*:
-	  it clears all columns and start over on a fresh one-column section
+	  it clears all columns and start over on a fresh one-column section (close/open "section" tags)
 	* `- [ ] ` or `* [ ] ` or `+ [ ] ` introduce a todo list item
 	* `- [x] ` or `* [x] ` or `+ [x] ` introduce a todo list item done
 	* `--` as a block markup is used to cite someone, usually inside a blockquote
