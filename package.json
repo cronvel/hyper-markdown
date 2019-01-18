@@ -2,14 +2,21 @@
   "name": "hyper-markdown",
   "description": "A superset of markdown, having in mind the “zero HTML for content” motto!",
   "author": "Cédric Ronvel",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "main": "./lib/marked.js",
   "bin": "./bin/hypermarkdown",
   "man": "./man/marked.1",
   "repository": "git://github.com/cronvel/hyper-markdown.git",
-  "bugs": { "url": "http://github.com/cronvel/hyper-markdown/issues" },
+  "bugs": {
+    "url": "http://github.com/cronvel/hyper-markdown/issues"
+  },
   "license": "MIT",
-  "keywords": ["markdown", "markup", "html","superset"],
+  "keywords": [
+    "markdown",
+    "markup",
+    "html",
+    "superset"
+  ],
   "devDependencies": {
     "markdown": "*",
     "showdown": "*",
@@ -17,5 +24,8 @@
     "gulp-uglify": "^1.1.0",
     "gulp-concat": "^2.5.2"
   },
-  "scripts": { "test": "node test", "bench": "node test --bench" }
+  "scripts": {
+    "oldtest": "node test",
+    "bench": "node test --bench"
+  }
 }

@@ -30,6 +30,7 @@ but there are still few common cases where HTML is still necessary.
 	  it clears all columns and start over on a fresh one-column section (close/open "section" tags)
 	* automatic column span for header of table having less columns than the rest of the table
 	* headerless table support: start directly with the `|---|---|`-like syntax
+	* multi-line table, using the `|---|---|`-like syntax as row splitter
 	* `- [ ] ` or `* [ ] ` or `+ [ ] ` introduce a todo list item
 	* `- [x] ` or `* [x] ` or `+ [x] ` introduce a todo list item done
 	* `--` as a block markup is used to cite someone, usually inside a blockquote
